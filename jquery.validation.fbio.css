@@ -1,0 +1,29 @@
+/*CSS jQuery Validation*/
+		input.error[type="text"],
+		input.error[type="password"],
+		textarea.error {
+			border:1px solid #d12c2c;
+			background-color: #f3ecec;
+			background-image: url('background_validator.png');
+			background-repeat: no-repeat;
+			background-position: right center;
+		}
+		label.error{
+			background-color: #d43f3f;
+			padding: 10px;
+			color: #fff;
+			position: absolute;
+			margin-top: -87px;
+			font-size:12px;
+			top:-1000px;
+		}
+		label.error:before{
+			background: url('arrow.png') no-repeat 0 0;
+			position: absolute;
+			margin-top: 25px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 6px;
+			content: "";
+			text-indent: -99999px;
+		}
